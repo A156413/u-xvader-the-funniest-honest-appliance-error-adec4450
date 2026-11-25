@@ -5,6 +5,10 @@ Writes one line -- the funniest honest error message an appliance could
 show -- to $MAKEFUN_OUTPUT_DIR/entry.txt (default /output) and prints the
 same line to stdout.
 
+The line is a fridge confessing the door was left open: it cooled the
+whole kitchen instead of the food, and leaves the bill to deliver the
+bad news.
+
 Deterministic: no network, no randomness, no clock.
 """
 
@@ -12,8 +16,8 @@ import os
 import sys
 
 ENTRY = (
-    "Error E7: unbalanced load. You put one shoe in me and expected a "
-    "fair fight. Add a second shoe, or accept the wobble."
+    "Error F2: door left open 47 minutes. I have cooled the entire "
+    "kitchen. Your electricity bill can explain the rest."
 )
 
 
